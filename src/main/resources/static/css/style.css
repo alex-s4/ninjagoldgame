@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.fcontainer {
+    border: 1px solid #000;
+}
+
+form {
+    text-align: center;
+    margin: 16px;
+}
+
+.cbox {
+    border: 2px solid black;
+    width: 800px;
+    margin: 0 auto;
+    height: 450px;
+    overflow: scroll;
+    scroll-padding-bottom: 100%;
+    
+}
